@@ -1,0 +1,59 @@
+一、java基础：
+1、java常用的集合框架有哪些？谈谈你对他们的理解。
+collect ,list set ,map hashMap treeMap
+2、多线程方面相关知识和业务场景使用
+答：start 启动一个线程，start方法中会自动调用run方法，单独调用run方法，不会启动线程，相当调用一个普通方法，
+创建线程的方式有：实现Thread和实现Runbale接口，多线程中要执行的代码放到run中。
+线程状态有
+New,Runbale,Blocked,waiting,Timed Wating,Terminated 线程终止
+
+3、请谈谈java注解和反射原理。
+答 注解不是程序本身，可以对程序作出解释，元注解作用，负责对注解其他注解，@Target标准使用的范围，类 方法 属性,@Retention 用于表述注解的生命周期,@Documented,@Inherited
+4、请谈谈jvm垃圾回收算法策略。
+5、请讲一下 jvm内存模型原理，参数有哪些？谈谈对jvm模型中的老年的和年轻代的理解。
+6、谈谈arraylist linkedlist区别是什么？
+7、谈谈volatile底层实现原理
+8、请谈谈对java内存模型的理解
+9、请谈谈你熟悉的设计模式和项目中实际使用经验
+10、Linux和网络相关技术
+11、请对比Redis/Zookeeper分布式锁讲解一下他们各自的底层实现原理
+12、HTTP与HTTPS有什么区别？他们各自有什么优缺点？
+13、什么是Http协议无状态协议？怎么解决Http协议无状态协议？
+14、Http协议中有那些请求方式？
+15、Session和Cookie的区别是什么?
+16、谈谈对Lambda表达式的使用经验。
+17、谈谈对HashMap结构和扩容机制的理解
+18、请谈一下CAS、synchronized、volatile的内部原理。
+19、请谈谈concurrentHashMap1.7-1.8之间的锁变化之间的区别。
+20、请谈谈线程池运行的核心原理
+21、请谈谈spring bean的生命周期、循环依赖、动态代理。
+22、请谈谈场景垃圾回收算法，设计模式-单例模式双重检测机制及volatile的作用。
+23、请谈谈tcp的三次握手四次回收过程
+24、请谈谈TreadLoca和ThreadPoolExcutor的用法。
+25、请谈谈AQS、CAS的原理
+26、请讲讲你熟悉的Linux常用命令有哪些？
+27、请谈谈JVM运行机制，运行原理，和调优经验。 
+28、请谈谈线程和进程的区别？
+29、请谈谈你对线程池，ThreadLocal,sychronized,lock的区别，使用场景和原理？
+30、集合类，多线程，内存管理相关基础考察
+31、谈谈对dubbo check属性的理解。
+32、请说明拦截器和过滤器的区别？并说明他们各自的运行原理。
+33、谈谈你熟悉的java常见的数据结构有哪些？谈谈你对他们的理解。
+34、你熟悉的linux命令有哪些？如何在 Linux 中创建和删除目录？如何在Linux中创建文件？如何在Linux中重命名文件和目录？如何在Linux中列出和挂载设备？等等常用操作命令。
+35、你熟悉的java分页插件有哪些？请说明他们各自的底层原理。
+36、时间可以分为哪几种类型？
+37、请讲讲threadlocal使用场景和原理，如果避免内存泄露。
+38、谈谈list、set、map他们三者之间的区别。
+39、实现线程的方式有哪几种？他们是如何实现的？谈谈你对线程安全和线程不安全的理解。
+40、synchronized底层如何实现？锁优化，怎么优化？多线程中 synchronized 锁升级的原理是什么？
+41、请谈一下你对二叉树的结构和遍历算法的理解。
+42、导致线程死锁的原因？怎么解除线程死锁？
+43、谈谈wait()和sleep()的区别?
+44、java内存模型和JVM内存模型区别
+45、谈谈map实现机制和理解
+46、既然有GC机制，为什么还会有内存泄露的情况?
+47、GC什么时候回收垃圾？
+48、Synchronized与Lock有什么区别？各自的使用场景是什么？
+49、dubbo支持哪些通信协议
+50、谈谈java8新特性：lambda、stream、default方法、hashMap升级
+51、请谈谈ConcurrentHashMap分段锁实现原理？在项目中如何使用。
